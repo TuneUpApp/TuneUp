@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tuner"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    tools:context="com.example.cvtechies.tuneup.tunerActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        app:srcCompat="@drawable/tunerdiagram"
+        android:id="@+id/imageView8"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="156dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:text="TUNER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="45sp"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="225dp"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:text="tap string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:textAllCaps="true"
+        android:textAlignment="center"
+        android:layout_below="@+id/textView4"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:text="Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Home1"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_marginStart="10dp"
+        android:textColor="@android:color/holo_orange_light"
+        android:layout_below="@+id/home_but_tuner"
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tuneupbutnotitle"
+        android:id="@+id/home_but_tuner"
+        style="@android:style/Widget.ImageButton"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:visibility="visible"
+        android:background="@android:color/background_light"
+        android:layout_marginTop="11dp"
+        android:layout_marginStart="8dp"
+        android:layout_alignParentTop="true"
+         />
+
+    <Button
+        android:layout_width="22dp"
+        android:layout_height="match_parent"
+        android:id="@+id/play_d"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="16sp"
+
+        android:layout_marginStart="248dp"
+        android:layout_alignParentTop="true"
+
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="22dp"
+        android:layout_height="match_parent"
+        android:id="@+id/play_a"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="16sp"
+
+        android:textStyle="normal|bold"
+        android:layout_marginStart="217dp"
+
+
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="22dp"
+        android:layout_height="match_parent"
+        android:id="@+id/play_little_e"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="16sp"
+
+        android:layout_marginStart="355dp"
+
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="22dp"
+        android:layout_height="match_parent"
+        android:id="@+id/play_g"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="16sp"
+
+        android:layout_marginStart="290dp"
+        android:layout_alignParentTop="true"
+
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="22dp"
+        android:layout_height="match_parent"
+        android:id="@+id/play_e"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="16sp"
+        android:layout_marginStart="187dp"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:layout_width="22dp"
+        android:layout_height="match_parent"
+        android:id="@+id/play_b"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="16sp"
+
+        android:layout_marginStart="322dp"
+        android:layout_alignBaseline="@+id/play_g"
+        android:layout_alignBottom="@+id/play_g"
+
+        android:textAllCaps="false" />
+
+
+</RelativeLayout>

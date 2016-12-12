@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_chord"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/userinfo"
+    tools:context="com.example.cvtechies.tuneup.chordActivity">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tuneupbutnotitle"
+        android:id="@+id/home_but_c"
+        style="@android:style/Widget.ImageButton"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:visibility="visible"
+        android:background="@android:color/background_light"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:text="Home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:id="@+id/Home1"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_orange_light"
+        android:layout_alignParentTop="true"
+        android:layout_alignEnd="@+id/home_but_c" />
+
+
+    <Button
+        android:text="G Chord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:id="@+id/g_chord"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="?attr/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:layout_below="@+id/home_but_c"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="C Chord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/g_chord"
+        android:layout_alignParentStart="true"
+        android:id="@+id/c_chord"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="?attr/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:textAlignment="center" />
+
+    <Button
+        android:text="A chord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/c_chord"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="37dp"
+        android:id="@+id/a_chord"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textColor="?attr/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textSize="16sp" />
+
+    <Button
+        android:text="d chord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a_chord"
+        android:layout_alignStart="@+id/a_chord"
+        android:id="@+id/d_chord"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="?attr/colorPrimary" />
+
+    <Button
+        android:text="e chord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/d_chord"
+        android:layout_alignStart="@+id/d_chord"
+        android:id="@+id/e_chord"
+        android:textColor="?attr/colorPrimary"
+        android:textStyle="normal|bold"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        style="@style/Widget.AppCompat.Button.Borderless" />
+
+    <TextView
+        android:text="Help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/help1"
+        android:textAllCaps="false"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:textColor="?attr/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/Home1"
+        android:textAlignment="center" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/helpbut"
+        android:id="@+id/help"
+        style="@android:style/Widget.ImageButton"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:visibility="visible"
+        android:background="@android:color/background_light"
+        android:layout_above="@+id/help1"
+        android:layout_alignStart="@+id/Home1" />
+
+</RelativeLayout>
